@@ -18,9 +18,9 @@
 	#git add .
 	#git add *
 	#git add <File name>
-		<"All file and folder are added to the staging area "." means "All"
-		< all all files #git *>
-		<select specific file "git add <file name>
+		<"All file and folder are added to the staging area <"."> means "All"
+		< all all files <#git *">
+		<select specific file <"git add <file name>
 		<"Added to the Staging Area">
 
 5) Check status of a Files are Folder :
@@ -28,7 +28,7 @@
 
 6) To commit the message :
 	#git commit -m "message"
-	#git commit ----> <"will be user as a editor adding additional lines"
+	#git commit ----> <"will be use as a editor adding additional message morethan online adding text"
 		#BUG-205
 			give one line space then add your text"
 		Cause: Bug Fixation 
