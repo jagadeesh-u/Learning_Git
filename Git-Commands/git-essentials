@@ -1,0 +1,106 @@
+1). How to install Git.
+	#apt-get install git
+	#yum install git
+
+2) How to add local repisitory in your local machine :
+	#git init
+		<added local repository>
+
+3) Create some files and folders :
+	#touch <file name>
+	#mkdir <dir name>
+  *) files are alway tracked by default when you use #git add .
+  *) Folders are Directories are not tracked if they are #EMPTY.
+  *) In Order to track Directories and Folder you need to add Some files inside
+     the Directories are folders.
+
+4) How to track a File :
+	#git add .
+	#git add *
+	#git add <File name>
+		<"All file and folder are added to the staging area "." means "All"
+		< all all files #git *>
+		<select specific file "git add <file name>
+		<"Added to the Staging Area">
+
+5) Check status of a Files are Folder :
+	#git status
+
+6) To commit the message :
+	#git commit -m "message"
+	#git commit ----> <"will be user as a editor adding additional lines"
+		#BUG-205
+			give one line space then add your text"
+		Cause: Bug Fixation 
+
+7). To show Commits :
+	#git log
+	#git show <log id> Specific log 
+
+8) Commit History in Online:
+	#git log --online
+
+9) How to list all the branches:
+	#git branch
+
+10. How to Create a New Branch :
+	#git branch <branch name>
+
+11. To list Branches : 
+	#git branch
+
+12. How to switch from One Branch to another Branch :
+	# git checkouot <branch name>
+
+13. How to create and switch Branch At the Same Time :
+	#git checkout -b <branch name>
+
+14. How to Rename the branch Name :
+	#git branch -M <Renaming Old Name> <New Name>
+	#git branch -M <New Name>
+
+15. How to Delete a Branch :
+	#git branch -d <Branch Name>
+
+16. How to add Remote repository to local Repository :
+	#git remote add origin <Remote Repo URL>
+
+17. How to Verify Wether the Remote Repository is Added or Not :
+	#git remote -v
+
+18. Now Push Your Local Repository content to Remote Repository :
+	#git push -u rigin main <main is a Branch name of Target Repositoy>
+ 
+19. To merge files from one branch to another branch (public_repo) <Branch Name 1>
+	#git merge branch_name2
+
+20. To merge files from one branch to another branch (private_repo) :
+	#git rebase branch_name2
+
+21. To revert back merged branch (public_repo) :
+	#git revert branch_name
+
+22. To reset the branch (private_repo) :
+	#git reset branch_name
+
+23. To set username :
+	#git config user.name "name"
+
+24. To set email address :
+	#git config user.email "user@mail.com"
+
+25. To show the number of files attached for a commit :
+	#git show
+
+26.  To show details about commit :
+	#git show commit_id
+
+27. To merge specific files :
+	#git cherry-pick commit_id
+
+28. Undo The Previous Changes of a Specific file :
+	#git restore file_name
+
+
+29. Git Clone Repository :
+	#git clone https://repo_link
