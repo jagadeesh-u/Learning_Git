@@ -4,8 +4,12 @@ third line
 fourth line
 fifth line
 adding files and folder together.
+<<<<<<< HEAD
 Some intriguing concepts are working.
 Added Dev Branch Changes to Remote Repository.
 
+=======
+#apt update -y
+>>>>>>> 6873fa4e50aae9d4f384aa2542c9f1c47dd8f10c
 
 
