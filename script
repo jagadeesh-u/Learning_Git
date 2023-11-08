@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo echo "update and upgrade the packge nginx"
 sudo apt update 
 sudo apt upgrade -y
 sudo apt install nginx -y
