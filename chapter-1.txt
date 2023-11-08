@@ -1,4 +1,6 @@
-chapter-1:
+=================
+CHAPTER-1:
+=================
  	Intro: 
 		List commits that are reachable by following the parent links from the given commit(s), 
 		but exclude commits that are reachable from the one(s) given with a ^ in front of them. 
