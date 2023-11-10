@@ -1,11 +1,7 @@
-first line
-second line
-third line
-fourth line
-fifth line
-adding files and folder together.
-#apt update -y
-Probing Accepted
+#apt-get update
+#apt-get upgrade -y
+#apt-get install nginx -y
+
 
 
 
